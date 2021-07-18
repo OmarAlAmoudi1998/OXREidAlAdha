@@ -43,10 +43,10 @@
         h3 {
             font-family: 'Amiri';
             font-size: 40px;
-            color: #123e53;
+            color: #ffffff;
             text-align: right;
             position: absolute;
-            bottom: 15%;
+            bottom: 10%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
@@ -65,7 +65,9 @@
             color: #e9c771;
         }
 
-
+        p{
+          color: #123e53;
+        }
     </style>
     <meta charset="utf-8">
     <title>عيد سعيد</title>
@@ -76,14 +78,15 @@
     <form>
         <div class="imgcontainer">
             <p style="text-align:center;">
-                <img src="logo white.png" alt="Avatar" class="avatar" width="150" height="150" class="responsive">
+                <img src="logo white.png" alt="Avatar" class="avatar" width="374" height="276" class="responsive">
             </p>
             <p style="text-align:center;">
                 <b style=font-size:200%;>بطاقة معايدة</b>
             </p>
             <p style="text-align:center;"><small style=font-size:120%>مبارك عليكم حلول عيد الأضحى المبارك, أعاده الله
                     علينا وعليكم بالخير والبركات</small></p>
-            <p style="text-align:center;"><small style=font-size:100%> يمكنك الحصول على بطاقة معايدة بإسمك من هنا</small></p>
+            <p style="text-align:center;"><small style=font-size:100%>يمكنكم الحصول على كرت تهنئة العيد بأسمكم من
+                    هنا</small></p>
         </div>
 
         <div class="container">
@@ -106,7 +109,7 @@
                 alert("يجب عليك ادخال اسمك في مربع النص")
             } else {
                 var image_htmlString = '<div><img class="MyImg" src="./design.jpg">' +
-                    '<h3 id=\'name\'>' + name + '</h3></div>';
+                    '<h3 style="left:50%;bottom:10%" id=\'name\'>' + name + '</h3></div>';
                 var tempDiv = document.createElement('div');
                 tempDiv.setAttribute("id", "html-content-holder")
                 document.body.appendChild(tempDiv);
@@ -128,7 +131,7 @@
                             document.body.removeChild(tempDiv);
                         }
                     });
-                }, 40);
+                }, 10);
             }
         }
     </script>
