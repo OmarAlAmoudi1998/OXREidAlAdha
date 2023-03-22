@@ -41,12 +41,12 @@
         }
 
         h3 {
-            font-family: 'Amiri';
-            font-size: 30px;
-            color: #000000;
+            font-family: 'Cairo';
+            font-size: 50px;
+            color: #FFFFFF;
             text-align: right;
             position: absolute;
-            bottom: 2%;
+            bottom: 0%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
@@ -109,8 +109,8 @@
             if (name == "" || name == " ") {
                 alert("يجب عليك ادخال اسمك في مربع النص")
             } else {
-                var image_htmlString = '<div><img class="MyImg" src="./ramadan.png">' +
-                    '<h3 style="left:50%;bottom:2%" id=\'name\'>' + name + '</h3></div>';
+                var image_htmlString = '<div><img class="MyImg" src="./design4.jpg">' +
+                    '<h3 style="left:50%;bottom:0%" id=\'name\'>' + name + '</h3></div>';
                 var tempDiv = document.createElement('div');
                 tempDiv.setAttribute("id", "html-content-holder")
                 document.body.appendChild(tempDiv);
