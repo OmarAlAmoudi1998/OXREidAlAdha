@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <title>عيد مبارك</title>
+    <title>رمضان مبارك</title>
     <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
@@ -83,9 +83,9 @@
             <p style="text-align:center;">
                 <b style=font-size:200%;>بطاقة معايدة</b>
             </p>
-            <p style="text-align:center;"><small style=font-size:120%>مبارك عليكم حلول عيد الأضحى المبارك, أعاده الله
+            <p style="text-align:center;"><small style=font-size:120%>مبارك عليكم حلول شهر رمضان المبارك, أعاده الله
                     علينا وعليكم بالخير والبركات</small></p>
-            <p style="text-align:center;"><small style=font-size:100%>يمكنكم الحصول على كرت تهنئة العيد بأسمكم من
+            <p style="text-align:center;"><small style=font-size:100%>يمكنكم الحصول على كرت تهنئة رمضان بأسمكم من
                     هنا</small></p>
         </div>
 
@@ -100,7 +100,7 @@
         <button onclick="getCard()">عرض التهنئة</button>
     </p>
 
-    <p style="text-align:center;">Made with love : Viemzyy <3</p>
+    <p style="text-align:center;">Programmed by: Viemzyy - Design by: Mohammed</p>
 
     <script>
         function getCard() {
@@ -109,7 +109,7 @@
             if (name == "" || name == " ") {
                 alert("يجب عليك ادخال اسمك في مربع النص")
             } else {
-                var image_htmlString = '<div><img class="MyImg" src="./design.jpg">' +
+                var image_htmlString = '<div><img class="MyImg" src="./ramadan.png">' +
                     '<h3 style="left:50%;bottom:2%" id=\'name\'>' + name + '</h3></div>';
                 var tempDiv = document.createElement('div');
                 tempDiv.setAttribute("id", "html-content-holder")
